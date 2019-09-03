@@ -1,0 +1,5 @@
+OUTLINE
+
+1. File beat - logstash - KAFKA - logstash - Elastic Search - Kibana > Stack install.
+2. save config with docker
+3. transfer that config to QA server.
