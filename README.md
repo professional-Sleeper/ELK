@@ -1,2 +1,2 @@
 # ELK
-log analysis
+log analysis ( filebeat - Logstash - Elastic search - Kibana )
