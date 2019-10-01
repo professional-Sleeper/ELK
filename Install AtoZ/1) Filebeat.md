@@ -2,7 +2,9 @@
 <h3> https://www.elastic.co/kr/downloads/ </h3>
 Filebeat - Logstash - Elastic Search - Kibana (ELK 스택)은 모두 해당 사이트에서 다운 가능
 <hr/>
-<h2>1. 설치 파일 준비 및 다운로드.</h2><hr/>
+<h2>1. 설치 파일 준비 및 다운로드.</h2>
+<h3>https://www.elastic.co/kr/downloads/beats/filebeat</h3>
+<hr/>
 <h2>2. filebeat.yml 수정 ( config )</h2>>
 
 <h3>2-1. Input 수정</h3>
