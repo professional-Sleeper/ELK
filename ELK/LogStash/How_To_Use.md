@@ -56,7 +56,7 @@ then, output is printed to console.
 * Exception Control<br/>
 <img src="https://user-images.githubusercontent.com/44637739/66366794-9857c580-e9cc-11e9-8ff3-409d510bb1b3.png">
 If you see this comment, It's path problem.<br/>
-Program doesn't find my_fifeline.conf file, So This exception occured.<br/>
-This case, You Should write full path.<br/>
+Program doesn't save UTF-8 or ASCII, So This exception occured.<br/>
+This case, You Should use save option to UTF-8 (witoudt BOM) and ASCII <br/>
 ex )<br/>
 D:/ELK/logstash-7.3.1/bin/logstash -f D:/ELK/logstash-7.3.1/bin/my_pipeline.conf --config.reload.automatic
