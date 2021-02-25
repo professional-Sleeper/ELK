@@ -29,3 +29,8 @@ output {<br/>
 <br/> => 5044 port로 부터 입력을 받아서 ( filebeat ), elasticsearch로 보내준다 ( 9200 port ) <br/>
 
 <h3>
+
+<h2>3. 실행 방법</h2>
+(설치폴더 bin)/logstash -f (설치폴더 conf)/my_pipeline.conf --config.reload.automatic<br/>
+-f (path) 옵션 : config 파일위치 수동으로 지정<br/>
+--config.reload.automatic 옵션 : 컨피그파일이 수정될때마다 자동으로 반영
