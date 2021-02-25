@@ -1,0 +1,40 @@
+
+
+Mon Dec 16 15:00:01 KST 2019 (SAP System : TST)
+
+Instance       No  TYP      PID STATUS  WHY    TIME  USER         PROGRAM(REP)                     TABLE        ACTION          BACTHJOB                         MEM USED
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TSTap02_TST_11 66  BTC    10505 Running        11336 DDIC         Program1                         TA001        Sequential Read BatchJob1			 			 4296          
+TSTap02_TST_11 52  BTC   116635 Running         3279 User1     	  Program2                         TA002        Sequential Read BatchJob1                        3904          
+TSTap02_TST_11 44  BTC   112060 Stopped SLEEP      2 User1     	  Program3                                                      BatchJob3                        309568        
+TSTap01_TST_11  9  DIA   105380 Stopped CPIC         User2   	  Program4                                                                                       4227720       
+TSTci_TST_00    5  DIA   210142 Running              User3	      Program5                         TA003        Sequential Read                                  16803940      
+TSTci_TST_00   10  DIA   210147 Running              User4        Program6                         TA004        Direct Read                                      4192440       
+
+
+Mon Dec 16 15:01:12 KST 2019 (SAP System : TST)
+
+Instance       No  TYP      PID STATUS  WHY    TIME  USER         PROGRAM(REP)                     TABLE        ACTION          BACTHJOB                         MEM USED
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TSTap02_TST_11 66  BTC    10505 Running        11346 DDIC 	      Program1                         TA001        Sequential Read BatchJob5		      			 4296          
+TSTap02_TST_11 52  BTC   116635 Running         3289 User1  	  Program2                         TA006        Sequential Read BatchJob5                        3904          
+TSTap02_TST_11 44  BTC   112060 Running            1 User1  	  Program3                                                      BatchJob4                        3904          
+TSTap02_TST_11 54  BTC   144120 Running            1 User2  	  Program4                         TA007        Sequential Read BatchJob1						 3904          
+TSTap02_TST_11 55  BTC   136708 Running            1 User3  	  Program5                         TA002        Sequential Read BatchJob1                        3904          
+TSTap02_TST_11 61  BTC    71132 Running            1 User4  	  Program6                         TA003        Sequential Read BatchJob3                        3904          
+TSTap01_TST_11 15  DIA   105386 Stopped CPIC         User5        Program6                                                                                       4193930       
+
+
+Mon Dec 16 15:02:22 KST 2019 (SAP System : TST)
+
+Instance       No  TYP      PID STATUS  WHY    TIME  USER         PROGRAM(REP)                     TABLE        ACTION          BACTHJOB                         MEM USED
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TSTap02_TST_11 66  BTC    10505 Running        11357 DDIC         Program1             	           TA001        Sequential Read BatchJob5						 4296          
+TSTap02_TST_11 52  BTC   116635 Running         3300 User1     	  Program2                	       TA006        Sequential Read BatchJob5                        3904          
+TSTap02_TST_11 44  BTC   112060 Running           12 User1     	  Program3               	                    Direct Read     BatchJob4                        12496         
+TSTap02_TST_11 54  BTC   144120 Running           12 User2   	  Program4                         TA007        Direct Read     BatchJob1			 			 3904          
+TSTap02_TST_11 55  BTC   136708 Running           12 User3	 	  Program5                         TA002        Sequential Read BatchJob1                        3904          
+TSTap02_TST_11 61  BTC    71132 Running           12 User4        Program6                         TA003        Sequential Read BatchJob3                        3904          
+TSTap01_TST_11 11  DIA   105382 Stopped CPIC       2 User6        Program6                                                                                       4193890       
+TSTap01_TST_11 34  DIA   105405 Stopped CPIC       1 User7        Program6                                                                                       12617366      
+
