@@ -1,0 +1,18 @@
+# SM66 Custom Patterns
+INSTANCE (.{14})
+NO (.{3})
+TYPE (.{5})
+PID (.{9})
+STATUS (.{8})
+WHY (.{6})
+RUNTIME (.{7})
+USER (.{14})
+PROGRAM (.{33})
+TABLE (.{13})
+ACTION (.{16})
+BATCHJOB (.{33})
+MEMUSED (.{14})
+
+# Days: Monday, Tue, Thu, etc... ( 2019.10.10 added by sungtae.kim for save time variable )
+DAY (Mon|Tue|Wed|Thu|Fri|Sat|Sun)
+LOGDATE (.{20})
